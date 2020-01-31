@@ -42,8 +42,8 @@ const content = [
     points: 1500
   },
   {
-    title: "Ping",
-    description: "It's like Pong.. but Ping (get it?)",
+    title: "Hacker Pong",
+    description: "Play pong with your fellow hackers",
     points: 1500
   },
   {
@@ -62,8 +62,8 @@ const content = [
     points: 3000
   },
   {
-    title: "Ping (win)",
-    description: "Win ping to get these points",
+    title: "Hacker Pong (win)",
+    description: "Win hacker pong to get these points",
     points: 3000
   },
 ]
