@@ -88,6 +88,32 @@ const Directory = () => {
       </Company>
 
       <Company>
+        <h2>Nimbella</h2>
+
+        <p>Nimbella Serverless Cloud is a cloud-agnostic serverless platform with integrated serverless compute, memory and storage that enables developers to easily build stateful applications. Nimbella also offers integrated serverless solutions that leverage the platform and provides a way to extend messaging platforms such as Slack with programmable capabilities.</p>
+
+        <p>For Nimbella Cloud Platform visit: <a href="https://nimbella.com/product/platform">https://nimbella.com/product/platform</a></p>
+        <p>For Nimbella Commander for Slack: <a href="https://nimbella.com/product/commander">https://nimbella.com/product/commander</a></p>
+      
+        <p>Commander is Nimbella's development platform for Slack. Commander allows you to create, run and share custom Slack apps and commands without ever leaving the Slack environment. Commander provides extra capabilities to Slack app components:</p>
+
+        <ul>
+          <li>Tasks to run your commands on a schedule</li>
+          <li>Triggers to enable other cloud services to call your Slack commands</li>
+          <li>User and Groups to control which Slack users can run, edit source code or administer your Slack apps</li>
+          <li>Secrets to encrypt API keys and passwords to keep them out of your source code</li>
+          <li>Audit logs to let admins see the actions that users, tasks, and triggers have taken</li>
+          <li>Command Sets to allow you to load commands from external locations (example: GitHub) and export commands to share with others</li>
+        </ul>
+
+        <Link href="https://nimbella.com/resources-commander/quickstart">Getting Started</Link>
+
+        <br />
+
+        <Link href="https://github.com/nimbella/command-sets">Example Command Sets</Link>
+      </Company>
+
+      <Company>
         <h2>Teleportal</h2>
 
         <Link href="https://docs.google.com/document/d/17pE2tSDCoJhMQQSfSY_DU1jJZPi61pAkvCyQfKXEPdY/edit">Teleportal x HackSC Doc</Link>
@@ -95,6 +121,24 @@ const Directory = () => {
         <br />
 
         <Link href="https://teleportal.dev/docs/">Teleportal Docs</Link>
+      </Company>
+
+      <Company>
+        <h2>Xmatters</h2>
+
+        <Link href="/static/xmatters.pdf">Xmatters Starter Pack</Link>
+
+        <br />
+
+        <Link href="https://help.xmatters.com">Help</Link>
+        
+        <br />
+        
+        <Link href="https://help.xmatters.com/ondemand/xmodwelcome/flowdesigner/laying-out-flow-designer.htm ">Flow Designer</Link>
+
+        <br/>
+
+        <Link href="https://help.xmatters.com/xmapi">API</Link>
       </Company>
 
       <Company>
@@ -148,6 +192,14 @@ const Company = styled.div`
 
   b {
     font-weight: bold;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding: 10px;
+    li {
+      line-height: 24px;
+    }
   }
 `;
 
