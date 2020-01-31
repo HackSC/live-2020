@@ -9,3 +9,5 @@ export { default as MLH } from "./MLH";
 export { default as Countdown } from "./Countdown";
 export { default as LinksAndTasks} from "./HelpfulLinks";
 export { default as Maps } from "./Maps";
+export { default as DirectoryIntro } from "./DirectoryIntro";
+export { default as Directory } from "./Directory";
