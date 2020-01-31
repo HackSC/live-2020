@@ -84,7 +84,7 @@ const Directory = () => {
 
         <br />
 
-        <Link href="https://docs.google.com/presentation/d/1nPl0sPXlwa2Spu-B4xav9bm0zs-JGBI-SKBLEqwoM2k/edit?usp=sharing">N3TWORK Doc</Link>
+        <Link href="https://store.unity.com/products/unity-personal">Download Unity</Link>
       </Company>
 
       <Company>
