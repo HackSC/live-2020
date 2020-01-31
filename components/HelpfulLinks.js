@@ -76,8 +76,8 @@ const HelpfulLinks = () => {
         </LinksCol>
 
         <TaskCol>
-          <Header>Battle Pass Breakdown</Header>
-          <Body>This year's HackSC features a hacker battle pass that allows hackers to receive prizes and raffle tickets for engaging and participating in HackSC events.</Body>
+          <Header>Hacker Pass Breakdown</Header>
+          <Body>This year's HackSC features a hacker pass that allows hackers to receive prizes and raffle tickets for engaging and participating in HackSC events.</Body>
 
           <Body>Get your Hacker Code scanned by volunteers and sponsors to gain points! Below is a full breakdown of tasks you can complete, and how many points they are worth.</Body>
         
@@ -143,6 +143,7 @@ const Link = styled.a`
 
   img {
     width: 20%;
+    height: 20%;
   }
 
   &:hover {

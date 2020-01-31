@@ -52,7 +52,7 @@ const Footer = () => {
         <ContactColumn>
           <Bold>Contact us</Bold>
           <ContactBody>
-            If you have any urgent questions or needs, don't hesitate to reach out to an organizer on Slack! 
+            If you have any urgent questions or needs, don't hesitate to reach out to an organizer on Slack or post in #ask-it! 
             For less urgent questions or needs, you can reach us via e-mail at <a href="mailto:hackers@hacksc.com">hackers@hacksc.com</a>
           </ContactBody>
         </ContactColumn>

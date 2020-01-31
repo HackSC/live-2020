@@ -3,12 +3,12 @@ import styled from "styled-components";
 const content = [
   {
     title: "Talking to sponsors",
-    description: "Get your code scanned by meet the sponsors to get points",
+    description: "Get your code scanned by meet the sponsors to get points (earn 1500 points for each sponsor you talk to!)",
     points: 1500
   },
   {
     title: "Talking to non-profit organizations",
-    description: "Get your code scanned by non-profit members to get points",
+    description: "Get your code scanned by non-profit members to get points (earn 1500 points for each non-profit you talk to!)",
     points: 1500
   },
   {
@@ -42,8 +42,8 @@ const content = [
     points: 1500
   },
   {
-    title: "Ping Pong",
-    description: "Participate in ping pong",
+    title: "Ping",
+    description: "It's like Pong.. but Ping (get it?)",
     points: 1500
   },
   {
@@ -62,8 +62,8 @@ const content = [
     points: 3000
   },
   {
-    title: "Ping Pong (win)",
-    description: "Win ping ong to get these points",
+    title: "Ping (win)",
+    description: "Win ping to get these points",
     points: 3000
   },
 ]
