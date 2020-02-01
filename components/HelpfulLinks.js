@@ -19,7 +19,7 @@ const HelpfulLinks = () => {
           <Header>Helpful Links</Header>
 
           <Links>
-            <Link href="https://hacksc-2020.slack.com" target="_blank">
+            <Link href="https://docs.google.com/presentation/d/1_LyuEO9Zjfox9vt5Y7FvhgMkssgUUvsc4OnLW79tCJk/edit?usp=sharing" target="_blank">
               <img src={Slack} />
 
               <LinkDescription>
@@ -28,7 +28,7 @@ const HelpfulLinks = () => {
               </LinkDescription>
             </Link>
 
-            <Link href="https://hacksc-2020.devpost.com" target="_blank">
+            <Link href="https://hacksc.com/join-slack" target="_blank">
               <img src={Devpost} />
 
               <LinkDescription>
