@@ -240,7 +240,7 @@ const Calendar = props => {
   );
 };
 
-const Popup = styled.div<{ display }>`
+const Popup = styled.div`
   ${({ display = { visible: false, e: {}, title: "Event" } }) =>
     `display: ${display.visible ? "unset" : "none"};`}
   width: 90%;
