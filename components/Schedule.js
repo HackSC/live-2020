@@ -1,6 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import moment from "moment";
 import styled from "styled-components";
+import { Header } from "./type";
 import { MdClose } from "react-icons/md";
 import Timeline, {
   TimelineHeaders,
@@ -19,7 +20,7 @@ let defaultTimeEnd = moment()
   .add(moment().hour(), "hour")
   .add(2, "hour");
 
-const Calendar = props => {
+const Schedule = props => {
   const { events } = props;
   const [eventVisibility, setEventVisibility] = useState({
     visible: false,
@@ -112,7 +113,6 @@ const Calendar = props => {
     );
   };
 
-  console.log(events);
   const items =
     events && events.events
       ? events.events.map(e => {
@@ -149,7 +149,9 @@ const Calendar = props => {
       : [];
 
   return (
-    <CalendarWrapper>
+    <Wrapper>
+      <Header>Schedule</Header>
+      <br />
       <Timeline
         groups={[
           {
@@ -243,13 +245,20 @@ const Calendar = props => {
           <TodayMarker />
         </TimelineMarkers>
       </Timeline>
-    </CalendarWrapper>
+    </Wrapper>
   );
 };
 
-const CalendarWrapper = styled.div`
-  margin: 0 20px;
+const Wrapper = styled.div`
+  display: flex;
+  width: 93.75%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  padding-bottom: 40px;
 `;
+
 const Popup = styled.div`
   ${({ display = { visible: false, e: {}, title: "Event" } }) =>
     `display: ${display.visible ? "unset" : "none"};`}
@@ -271,4 +280,4 @@ const Popup = styled.div`
   background-color: white;
 `;
 
-export default Calendar;
+export default Schedule;

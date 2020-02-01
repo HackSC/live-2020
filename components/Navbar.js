@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <Links>
           <a href="/">Live</a>
-          <a href="/calendar">Calendar</a>
+          <a href="/schedule">Schedule</a>
           <a href="/api-directory">API Directory</a>
           <a href="/maps">Maps</a>
           <a href="https://odyssey.hacksc.com">Odyssey</a>

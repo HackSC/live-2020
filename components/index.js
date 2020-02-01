@@ -11,4 +11,4 @@ export { default as LinksAndTasks } from "./HelpfulLinks";
 export { default as Maps } from "./Maps";
 export { default as DirectoryIntro } from "./DirectoryIntro";
 export { default as Directory } from "./Directory";
-export { default as Calendar } from "./Calendar";
+export { default as Schedule } from "./Schedule";
