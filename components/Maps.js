@@ -11,6 +11,11 @@ const Maps = () => {
       </Row>
 
       <MapRow>
+        <Header>3D</Header>
+        <MapImg src="/static/map/3D.png" />
+      </MapRow>
+
+      <MapRow>
         <Header>Flat</Header>
         <MapImg src="/static/map/FLAT.png" />
       </MapRow>
@@ -18,11 +23,6 @@ const Maps = () => {
       <MapRow>
         <Header>Campus</Header>
         <MapImg src="/static/map/CAMPUS.png" />
-      </MapRow>
-
-      <MapRow>
-        <Header>3D</Header>
-        <MapImg src="/static/map/3D.png" />
       </MapRow>
 
       {/* No shame */}

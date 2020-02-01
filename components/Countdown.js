@@ -8,7 +8,7 @@ const Countdown = () => {
     <Wrapper>
       <Row>
         <CountdownContainer>
-          <h2>Time Till Hacking Starts</h2>
+          <h2>Time Till Hacking Ends</h2>
           <ReactCountdown date={new Date("Feb 2, 2020 9:00 AM")}>
             Hacking has begun!
           </ReactCountdown> 
