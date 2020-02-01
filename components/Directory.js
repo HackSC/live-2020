@@ -146,8 +146,8 @@ const Directory = () => {
       <Company>
         <h2>Nimbella</h2>
         <p>
-          Create a unique and useful command set for Slack using Nimbella
-          Commander Create a unique and useful command set inside Slack! Our
+          Create a unique and useful command using Nimbella Commnder! Connect
+          with your favorite APIs while leveraging Slack's amazing UI. Our
           prizes will be given to the top 2 teams who create at least one
           command set using Nimbella Commander and post the set to GitHub for
           others to use! Example commands can utilize any of{" "}
