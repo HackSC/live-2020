@@ -4,6 +4,7 @@ import {
   MetaTags,
   Footer,
   LinksAndTasks,
+  LinkToSchedule
 } from "../components";
 
 const Landing = () => {
@@ -13,6 +14,7 @@ const Landing = () => {
 
       <Navbar />
       <Countdown />
+      <LinkToSchedule />
       <LinksAndTasks />
       <Footer />
     </>
