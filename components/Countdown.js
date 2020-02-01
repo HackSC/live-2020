@@ -9,7 +9,7 @@ const Countdown = () => {
       <Row>
         <CountdownContainer>
           <h2>Time Till Hacking Starts</h2>
-          <ReactCountdown date={new Date("Jan 31, 2020 9:00 PM")}>
+          <ReactCountdown date={new Date("Feb 2, 2020 9:00 AM")}>
             Hacking has begun!
           </ReactCountdown> 
         </CountdownContainer>
