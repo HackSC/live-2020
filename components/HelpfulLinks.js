@@ -19,7 +19,10 @@ const HelpfulLinks = () => {
           <Header>Helpful Links</Header>
 
           <Links>
-            <Link href="https://docs.google.com/presentation/d/1_LyuEO9Zjfox9vt5Y7FvhgMkssgUUvsc4OnLW79tCJk/edit?usp=sharing" target="_blank">
+            <Link
+              href="https://docs.google.com/presentation/d/1_LyuEO9Zjfox9vt5Y7FvhgMkssgUUvsc4OnLW79tCJk/edit?usp=sharing"
+              target="_blank"
+            >
               <img src={Slack} />
 
               <LinkDescription>
@@ -28,7 +31,7 @@ const HelpfulLinks = () => {
               </LinkDescription>
             </Link>
 
-            <Link href="https://hacksc.com/join-slack" target="_blank">
+            <Link href="https://hacksc-2020.devpost.com/" target="_blank">
               <img src={Devpost} />
 
               <LinkDescription>
@@ -46,7 +49,10 @@ const HelpfulLinks = () => {
               </LinkDescription>
             </Link>
 
-            <Link href="https://www.facebook.com/hackscofficial/" target="_blank">
+            <Link
+              href="https://www.facebook.com/hackscofficial/"
+              target="_blank"
+            >
               <img src={Facebook} />
 
               <LinkDescription>
@@ -64,7 +70,10 @@ const HelpfulLinks = () => {
               </LinkDescription>
             </Link>
 
-            <Link href="https://www.instagram.com/hackscofficial/" target="_blank">
+            <Link
+              href="https://www.instagram.com/hackscofficial/"
+              target="_blank"
+            >
               <img src={Instagram} />
 
               <LinkDescription>
@@ -77,10 +86,18 @@ const HelpfulLinks = () => {
 
         <TaskCol>
           <Header>Hacker Pass Breakdown</Header>
-          <Body>This year's HackSC features a hacker pass that allows hackers to receive prizes and raffle tickets for engaging and participating in HackSC events.</Body>
+          <Body>
+            This year's HackSC features a hacker pass that allows hackers to
+            receive prizes and raffle tickets for engaging and participating in
+            HackSC events.
+          </Body>
 
-          <Body>Get your Hacker Code scanned by volunteers and sponsors to gain points! Below is a full breakdown of tasks you can complete, and how many points they are worth.</Body>
-        
+          <Body>
+            Get your Hacker Code scanned by volunteers and sponsors to gain
+            points! Below is a full breakdown of tasks you can complete, and how
+            many points they are worth.
+          </Body>
+
           <TaskBreakdown />
         </TaskCol>
       </Row>
@@ -135,7 +152,7 @@ const Link = styled.a`
   border-radius: 4px;
   padding: 1.5rem 1.5rem;
   margin-top: 0.75rem;
-  color: #5F5F5F;
+  color: #5f5f5f;
   width: 100%;
   box-sizing: border-box;
 
