@@ -8,32 +8,23 @@ import {
     Calendar
 } from "../components";
 
-const CalendarPage = () => {
+const CalendarPage = ({ events }) => {
 
-    const [events, setEvents] = useState({});
-
-    useEffect(() => {
-        async function fetchData() {
-            const res = await fetch("https://odyssey.hacksc.com/api/public/events/list");
-            res
-                .json()
-                .then(res => setEvents({ success: res }))
-                .catch(err => setEvents({ errors: err }));
-        }
-
-        fetchData();
-    });
-
-    console.log(events);
     return (
         <>
             <MetaTags title="HackSC 2020 Calendar" />
 
             <Navbar />
-            <Calendar events />
+            <Calendar events={events} />
             <Footer />
         </>
     );
 };
+
+CalendarPage.getInitialProps = async ({ req }) => {
+    const res = await fetch("https://odyssey.hacksc.com/api/public/events/list");
+    const json = await res.json();
+    return { events: json };
+}
 
 export default CalendarPage;

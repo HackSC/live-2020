@@ -8,10 +8,10 @@ const Countdown = () => {
     <Wrapper>
       <Row>
         <CountdownContainer>
-          <h2>Time Till Hacking Starts</h2>
-          <ReactCountdown date={new Date("Jan 31, 2020 9:00 PM")}>
+          <h2>Time Till Hacking Ends</h2>
+          <ReactCountdown date={new Date("Feb 2, 2020 9:00 AM")}>
             Hacking has begun!
-          </ReactCountdown> 
+          </ReactCountdown>
         </CountdownContainer>
       </Row>
     </Wrapper>
@@ -30,7 +30,6 @@ const Wrapper = styled.div`
 const Row = styled.div`
   display: flex;
   flex-direction: row;
-
   ${({ theme }) => theme.media.tablet`
     flex-direction: column;
   `}
@@ -38,20 +37,18 @@ const Row = styled.div`
 
 const CountdownContainer = styled.div`
   background: #ff8379;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   padding: 24px 18px;
   border-radius: 6px;
   text-align: center;
   box-sizing: border-box;
-
   h2 {
     font-size: 18px;
     margin-bottom: 12px;
   }
-
   span {
-    font-size:48px;
+    font-size: 48px;
     font-weight: bold;
   }
 `;

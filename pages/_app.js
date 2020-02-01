@@ -2,9 +2,8 @@ import React from "react";
 import App, { Container } from "next/app";
 import { hotjar } from "react-hotjar";
 import { ThemeProvider } from "styled-components";
-
-import { GlobalStyles, theme } from "../styles";
 import "react-calendar-timeline/lib/Timeline.css";
+import { GlobalStyles, theme } from "../styles";
 
 class HackSC extends App {
   static async getInitialProps({ Component, ctx }) {
