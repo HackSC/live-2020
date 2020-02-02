@@ -8,10 +8,7 @@ const Countdown = () => {
     <Wrapper>
       <Row>
         <CountdownContainer>
-          <h2>Time Till Hacking Ends</h2>
-          <ReactCountdown date={new Date("Feb 2, 2020 9:00 AM")}>
-            Hacking has begun!
-          </ReactCountdown> 
+          <h2>Hacking has concluded! Thanks for coming to HackSC 2020</h2>
         </CountdownContainer>
       </Row>
     </Wrapper>
@@ -47,7 +44,6 @@ const CountdownContainer = styled.div`
 
   h2 {
     font-size: 18px;
-    margin-bottom: 12px;
   }
 
   span {
